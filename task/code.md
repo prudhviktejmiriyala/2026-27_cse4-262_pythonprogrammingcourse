@@ -43,6 +43,7 @@ Step 9: If no students are eligible, display an appropriate message.
 Step 10: Stop the program.
 3. Flowchart
 The following flowchart illustrates the complete process of scholarship allocation.
+```Mermaid
 flowchart TD
 
     A([Start]) --> B[/Input number of applicants/]
@@ -83,7 +84,7 @@ flowchart TD
     class A,R startEnd
     class B,C,D,F,H,J,K,L,M,N,P,Q process
     class E,G,I,O decision
-
+```
 4. Python Source Code
 The following Python program accepts student details, checks eligibility, ranks eligible students, and displays the scholarship allocation results.
 # University Scholarship Allocation System
